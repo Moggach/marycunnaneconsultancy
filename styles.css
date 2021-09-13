@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -14,14 +15,55 @@ body {
 nav {
   background-color: #012a4a;
   color: white;
-  height: 5rem;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem;
+}
+
+.icon {
+  height: 2rem;
 }
 
 h1 {
-  padding: 1rem;
+  font-size: 1.5rem;
 }
 
-img {
+.hero {
   width: 100%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+section {
+  background-color: #d5e7e7;
+  border-radius: 0.5rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  color: #012a4a;
+  padding: 1rem;
+  border: 0.1rem solid #012a4a;
+  box-shadow: 0 3px 8px rgb(0 0 0 / 0.2);
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+p {
+  line-height: 1rem;
+  font-size: 0.8rem;
+}
+
+footer {
+  background-color: #012a4a;
+  height: 3rem;
+  margin-top: 2rem;
+  color: white;
+  font-size: 0.5rem;
 }
